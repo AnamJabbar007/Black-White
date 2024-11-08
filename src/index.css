@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Anzo1;
+  src: url(assets/file.woff2);
+}
+
+@font-face {
+  font-family: Anzo2;
+  src: url(assets/file2.woff2);
+}
+
+@font-face {
+  font-family: Anzo3;
+  src: url(assets/file3.woff2);
+}
+
+@font-face {
+  font-family: Anzo4;
+  src: url(assets/file4.woff2);
+}
+
+@font-face {
+  font-family: alag Anzo;
+  src: url(assets/madefor-text.var.original.woff2);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: black;
+  color: #fff;
+}
+
+#Page1-in{
+  position: relative;
+  perspective: 1300px;
+}
+
+#tiltDev{
+ 
+  width: fit-content;
+ 
+}
+
+#section2{
+  position: relative;
+  perspective: 2000px;
+}
+
+.line{
+  background-color: #6A6A6A;
+}
+
+.lineText{
+  color: #6A6A6A;
+}
+
+.rotateText{
+  transform-origin: 100% 70%;
+}
+.rotateText2{
+  transform-origin: 100% 70%;
+}
+
+#Skill{
+  background-image: url(https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+ 
+}
