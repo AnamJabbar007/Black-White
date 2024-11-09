@@ -58,7 +58,7 @@ const Page1 = () => {
   "
 >
  
-  <div className="absolute inset-0 bg-transparent bg-opacity-40 rounded-3xl"></div>
+  <div className="absolute hidden sm:block inset-0 bg-transparent bg-opacity-40 rounded-3xl"></div>
 
         
         <img
