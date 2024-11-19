@@ -24,24 +24,39 @@ const Page5 = () => {
   });
 
   return (
-    <div id="section2" className="bg-white overflow-x-hidden text-center p-6 xl:p-10 text-black">
+    <div
+      id="section2"
+      className="bg-white overflow-x-hidden text-center p-6 xl:p-10 text-black"
+    >
       <div className="rotateText2 mt-40">
-        <h1 className="text-[42vw] font-[Anzo2] text-black uppercase leading-[35vw]">HELPING</h1>
+        <h1 className="text-[42vw] font-[Anzo2] text-black uppercase leading-[35vw]">
+          HELPING
+        </h1>
       </div>
       <div className="rotateText2">
-        <h1 className="text-[42vw] font-[Anzo2] lineText uppercase leading-[35vw]">MY</h1>
+        <h1 className="text-[42vw] font-[Anzo2] lineText uppercase leading-[35vw]">
+          MY
+        </h1>
       </div>
       <div className="rotateText2">
-        <h1 className="text-[42vw] font-[Anzo2] text-black uppercase leading-[35vw]">CLIENTS</h1>
+        <h1 className="text-[42vw] font-[Anzo2] text-black uppercase leading-[35vw]">
+          CLIENTS
+        </h1>
       </div>
       <div className="rotateText2">
-        <h1 className="text-[42vw] font-[Anzo2] text-black uppercase leading-[35vw]">TO ACHIEVE</h1>
+        <h1 className="text-[42vw] font-[Anzo2] text-black uppercase leading-[35vw]">
+          TO ACHIEVE
+        </h1>
       </div>
       <div className="rotateText2">
-        <h1 className="text-[42vw] font-[Anzo2] lineText uppercase leading-[35vw]">THEIR</h1>
+        <h1 className="text-[42vw] font-[Anzo2] lineText uppercase leading-[35vw]">
+          THEIR
+        </h1>
       </div>
       <div className="rotateText2">
-        <h1 className="text-[42vw] font-[Anzo2] text-black uppercase leading-[35vw]">DREAMS!</h1>
+        <h1 className="text-[42vw] font-[Anzo2] text-black uppercase leading-[35vw]">
+          DREAMS!
+        </h1>
       </div>
     </div>
   );
